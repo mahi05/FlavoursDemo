@@ -1,22 +1,25 @@
 package com.mahii.flavoursdemo;
 
+/**
+ * @author i_m_mahii, mahi05
+ */
 class MyModel {
     private String itemNo;
     private String gain;
 
-    public String getItemNo() {
+    String getItemNo() {
         return itemNo;
     }
 
-    public void setItemNo(String itemNo) {
+    void setItemNo(String itemNo) {
         this.itemNo = itemNo;
     }
 
-    public String getGain() {
+    String getGain() {
         return gain;
     }
 
-    public void setGain(String gain) {
+    void setGain(String gain) {
         this.gain = gain;
     }
 }

@@ -10,7 +10,10 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class CallService extends AsyncTask<Void, String, String> {
+/**
+ * @author i_m_mahii, mahi05
+ */
+class CallService extends AsyncTask<Void, String, String> {
 
 	private OnServiceCall OnServiceCall;
 	private String urlStr;
@@ -20,7 +23,7 @@ public class CallService extends AsyncTask<Void, String, String> {
 		void onServiceCall(String response);
 	}
 
-	public CallService(Context context, String urlStr, String method, OnServiceCall OnServiceCall) {
+	CallService(Context context, String urlStr, String method, OnServiceCall OnServiceCall) {
 		this.urlStr = urlStr;
 		this.OnServiceCall = OnServiceCall;
 		this.method = method;

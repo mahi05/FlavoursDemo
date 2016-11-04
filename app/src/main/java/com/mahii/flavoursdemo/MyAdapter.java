@@ -9,12 +9,15 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class MyAdapter extends BaseAdapter {
+/**
+ * @author i_m_mahii, mahi05
+ */
+class MyAdapter extends BaseAdapter {
 
     private ArrayList<MyModel> myModels;
     private LayoutInflater inflater;
 
-    public MyAdapter(Context context, ArrayList<MyModel> myModels) {
+    MyAdapter(Context context, ArrayList<MyModel> myModels) {
         this.myModels = myModels;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }

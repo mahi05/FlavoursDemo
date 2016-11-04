@@ -1,8 +1,7 @@
 package com.mahii.flavoursdemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -12,6 +11,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+/**
+ * @author i_m_mahii, mahi05
+ */
 public class MainActivity extends AppCompatActivity {
 
     TextView nameTV, typeTV;
