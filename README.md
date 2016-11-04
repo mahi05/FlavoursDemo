@@ -1,6 +1,6 @@
 <h1>Product Flavors</h1>
-
-`.
+<pre><code>
+.
 ├── build.gradle
 ├── gradle
 │   └── wrapper
@@ -17,7 +17,7 @@
     │   └── res
     └── pro
         └── java                        <--- Source code for "pro" product flavor
-`
+        </code></pre>
 
 <ul>
 <li>A product flavor defines a customized version of the application build by the project.</li>
