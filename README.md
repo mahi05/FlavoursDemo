@@ -20,7 +20,8 @@
         </code></pre>
 
 <ul>
-<li><pre>To start with the flavors, we need to declare different flavors at app level build.gradle file inside android block.
+<li>
+<pre>To start with the flavors, we need to declare different flavors at app level build.gradle file inside android block.
 	i.e. :-<code>
 	productFlavors {
         free {
@@ -29,7 +30,10 @@
         paid {
             applicationId "yourpackagename.paid"
         }
-        }</code></pre></li>
+        }
+</code>
+</pre>
+</li>
 <li>Typical example: A free and a paid version of the application.</li>
 <li>Build Type + Product Flavor = Build Variant</li>
 </ul>
