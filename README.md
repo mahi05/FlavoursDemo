@@ -39,7 +39,7 @@ To start with the flavors, we need to declare different flavors at app level bui
 <li>Add package with the same package name of project inside java directory of both flavors.</li>
 <li>Create a java class with the name of "Constants.java" in both flavors.</li>
 <li>Add a static string with the different url of different flavors.
-	i.e. :-
+	i.e. :-<pre>
 		1.	http://www.example.com/FreeApi
-		2.	http://www.example.com/PaidApi</li>
+		2.	http://www.example.com/PaidApi</pre></li>
 </ul>
