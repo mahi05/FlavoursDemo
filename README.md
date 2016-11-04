@@ -21,8 +21,8 @@
 
 <ul>
 <li>
-<pre>To start with the flavors, we need to declare different flavors at app level build.gradle file inside android block.
-	i.e. :-<code>
+To start with the flavors, we need to declare different flavors at app level build.gradle file inside android block.
+	i.e. :-<pre><code>
 	productFlavors {
         free {
             applicationId "yourpackagename.free"
