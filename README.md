@@ -16,7 +16,7 @@
     │   ├── java
     │   └── res
     └── pro
-        └── java                        <--- Source code for "pro" product flavor
+        └── java                        <--- Source code for "paid" product flavor
         </code></pre>
 
 <ul>
@@ -42,4 +42,24 @@ To start with the flavors, we need to declare different flavors at app level bui
 	i.e. :-<pre>
 		1.	http://www.example.com/FreeApi
 		2.	http://www.example.com/PaidApi</pre></li>
+<li>Now use this apis in different falavors.</li>
+</ul>
+
+<h1>Dependencies for product flavors</h1>
+<pre>
+<code>
+dependencies {
+    compile 'com.android.support:multidex:1.0.1'         	<--- Dependency for regular source code
+    proCompile 'com.android.support:multidex:1.0.1'    		<--- Dependency for product flavor
+}
+</code>
+</pre>
+
+<h2>Generated tasks</h2>
+<p>Build variants provide tasks as combination of build types and product flavors. For Example :- </p>
+<ul>
+<li><code>freeDebug</code>: Debug build for flavor Free</li>
+<li><code>freeRelease</code>: Release build for flavor Free</li>
+<li><code>proDebug</code>: Debug build for flavor Pro</li>
+<li><code>proRelease</code>: Release build for flavor Pro</li>
 </ul>
