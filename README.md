@@ -20,7 +20,16 @@
         </code></pre>
 
 <ul>
-<li>A product flavor defines a customized version of the application build by the project.</li>
+<li><pre>To start with the flavors, we need to declare different flavors at app level build.gradle file inside android block.
+	i.e. :-<code>
+	productFlavors {
+        free {
+            applicationId "yourpackagename.free"
+        }
+        paid {
+            applicationId "yourpackagename.paid"
+        }
+        }</code></pre></li>
 <li>Typical example: A free and a paid version of the application.</li>
 <li>Build Type + Product Flavor = Build Variant</li>
 </ul>
